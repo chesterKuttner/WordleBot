@@ -1,0 +1,12 @@
+information is being represented in bits, when information is given that reduces the given probabibly by half its is reduced by one bit
+if it is reduced too 1/4th the original probability its is reduced by 2 bits, the equation for this is:
+(1/2)^I=p
+which can be reduced too
+I = log2(1/p(x))
+
+therefore the optimism value we are giving to a certain word is calculated with this equation which incorporates all the possible words 
+after one input
+
+E[I] = ∑ ( p(x) * log2(1/p(x)) )
+       x
+
